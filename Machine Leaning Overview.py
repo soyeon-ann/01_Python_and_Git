@@ -21,3 +21,4 @@ def Length(talk):
 talk = input("문자 메시지를 입력하세요: ")
 charge = Length(talk)
 print(f"문자 요금은 {charge}원입니다.")
+
