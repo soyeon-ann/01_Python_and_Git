@@ -14,3 +14,4 @@ print(result)
 
 fruits = {'apple': 3, 'banana': 5, 'cherry': 2}
 print(fruits['banana'])
+
