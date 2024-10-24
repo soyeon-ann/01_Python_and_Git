@@ -1,9 +1,8 @@
-numbers = [3, 100, 23, 33, 72, 94]
-result = []
+number = 1
 
-for i in numbers:
-    if i % 3 == 0:
-        result.append(i)
+while number <= 1000 :
+    print(number)
+    number = number + 1
 
-print(result)
+
 
