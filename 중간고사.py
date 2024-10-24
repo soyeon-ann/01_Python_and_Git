@@ -1,9 +1,8 @@
-number = 1
-sum = 0
+def odd_or_even(num):
+    if num % 2 == 0:
+        return "짝수"
+    else:
+        return "홀수"
 
-while number <= 100:
-    if number % 2 != 0:
-        sum += number
-    number += 1
-print(sum)
-
+result = odd_or_even(2)
+print("답:", result)
