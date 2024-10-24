@@ -1,10 +1,9 @@
-a = input("값을 입력하시오 : ")
-result = int(a) + 100
+numbers = [3, 100, 23, 33, 72, 94]
+result = []
 
-if result >= 150:
-    print(result)
+for i in numbers:
+    if (i % 3 == 0):
+        result.append(i)
 
-elif result <= 150:
-    print("값이 부족합니다.")
+print(result)
 
-    
