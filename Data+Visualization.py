@@ -161,4 +161,4 @@ plt.title('Heatmap Example')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 
-plt.savefig("./results/heatmap.png")
+plt.savefig("./results/heatmap.png") 
