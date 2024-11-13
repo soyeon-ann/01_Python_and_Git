@@ -15,7 +15,7 @@ plt.legend()
 
 plt.grid(True)
 
-plt.savefig("./linechart.png")
+plt.savefig("./results/linechart.png")
 
 #2
 categories=['Apple','Banana','Orange','Strawberry','Grape']
@@ -30,7 +30,7 @@ plt.title('Fruit Sales')
 plt.xlabel('Fruit')
 plt.ylabel('Sales')
 
-plt.savefig("./bar_chart.png")
+plt.savefig("./results/bar_chart.png")
 
 #3
 import matplotlib.pyplot as plt
@@ -44,7 +44,7 @@ plt.hist(data,bins=20,color='skyblue',edgecolor='black')
 
 plt.title('Histogram Chart')
 
-plt.savefig('./histogram.png')
+plt.savefig('./results/histogram.png')
 
 #4
 import matplotlib.pyplot as plt
@@ -59,7 +59,7 @@ plt.pie(sizes,labels=labels,autopct='%1.1f%%',startangle=140,colors=['lightblue'
 
 plt.title('Subjects Distribution')
 
-plt.savefig("./piechart.png")
+plt.savefig("./results/piechart.png")
 
 #5
 import matplotlib.pyplot as plt
@@ -79,7 +79,7 @@ plt.ylabel('y-axis')
 
 plt.legend()
 
-plt.savefig("./scatter.png")
+plt.savefig("./results/scatter.png")
 
 #6
 import matplotlib.pyplot as plt
@@ -99,7 +99,7 @@ plt.ylabel('Y-axis')
 
 plt.legend()
 
-plt.savefig("./scatter2.png")
+plt.savefig("./results/scatter2.png")
 
 #7
 import matplotlib.pyplot as plt
@@ -123,7 +123,7 @@ plt.ylabel('Y-axis')
 
 plt.legend()
 
-plt.savefig("./scatter_with_line.png")
+plt.savefig("./results/scatter_with_line.png")
 
 #8
 import matplotlib.pyplot as plt
@@ -142,7 +142,7 @@ plt.xlabel('Values')
 
 plt.xticks(range(-15,16,5))
 
-plt.savefig("./boxplot_2.png")
+plt.savefig("./results/boxplot_2.png")
 
 #9
 import matplotlib.pyplot as plt
@@ -161,4 +161,4 @@ plt.title('Heatmap Example')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 
-plt.savefig("./heatmap.png")
+plt.savefig("./results/heatmap.png")
